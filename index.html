@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+  
+  <title>Shubh's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myphoto.jpg"  alt="Richard hanrick" width="80" >
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Shubh Kumar Jain  ">Shubh Kumar Jain  </h1>
+
+          
+          <p></p>
+
+          <p class="title">     Programmer and ML Enthusiast   </p>
+        </div>
+      
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sjain265@asu.edu" class="contact-link">sjain265@asu.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+1 480 953 1515" class="contact-link">+1 480 953 1515</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-10-27">November 16, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tempe, Arizona</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+
+
+
+
+      <!--
+        - HAVE TO CHANGE LINKS
+      -->
+
+
+
+
+
+      
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shubhjain202/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href=" https://github.com/shubhjain202" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/shubhjain306/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a fervent programmer driven by a profound passion for Machine Learning, I've embarked on a journey of continuous learning and skill development. Through hands-on projects, multiple internships, and the publication of research papers offering innovative perspectives, I immerse myself in the realms of AI-ML and 
+            Data Science. My commitment lies in
+            the active pursuit of knowledge and expertise, perpetually expanding my horizons in the captivating world of ML and programming.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Masters</h4>
+
+                <p class="service-item-text">
+                  Pursuing MS in Computer Science at Arizona State University, 
+                  deepening my passion for programming and machine learning.
+                  <br>
+                  Expected Graduation: 2025
+                
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Projects</h4>
+
+                <p class="service-item-text">
+                  Actively engaged in AI and ML projects and internships, deploying them within the field, all 
+                  showcased in the projects section
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/coursework.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Course work</h4>
+
+                
+
+                <ul class="service-item-text">
+                  <li>Statistical Machine Learning</li>
+                  <li>Fundamentals of Statistical Learning</li>
+                  <li>Digital Video Processing</li>
+                  <br>
+                  <li>Software Security</li>
+                  <li>knowledge Representation and Reasoning</li>
+
+          
+                  
+                </ul>
+              </div>
+
+            </li>
+
+          
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/video.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Videography</h4>
+
+                <p class="service-item-text">
+                  Enthusiastic creator who loves crafting videos, capturing moments, and turning experiences into visual stories :).                </p>
+              </div>
+
+            </li>
+          
+
+          </ul>
+
+        </section>
+
+
+        
+          <!--
+        
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">References</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+
+            
+
+            
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/hz.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Prof. Hamim Zafar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dept of Computer Science,  <br> 
+                    Indian Institute of Technology Kanpur, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            
+            
+          </ul>
+
+        </section>
+        -->
+
+
+
+        <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+       </section>
+  
+          </div>
+        
+        <!--
+          - clients
+        -->
+
+
+
+        
+        
+
+        <section class="clients">
+              <h3 class="h3 testimonials-title">Current and past affiliations</h3>
+              <div class="testimonials-text" data-testimonials-text>
+              <p> The organisations, institutes, and programs I am currently working for (or under/on), or have worked for in the past. 
+              </p>
+            </div>
+              <ul class="clients-list has-scrollbar">
+                <div>
+                 <img src="./assets/images/asu.png" alt="client logo" width="125" height="110">   
+                  <h6 class="h6 service-item-title">Arizona State University        </h6> 
+                </div>
+              <div>
+                <img src="./assets/images/dpu.jpg" alt="client logo" width="125" height="110">  
+                <h6 class="h6 service-item-title">Dr. D. Y. Patil Institute of Technology </h6>
+              </div>
+              <div>
+                <img src="./assets/images/sppu.png" alt="client logo" width="125" height="110">  
+                <h6 class="h6 service-item-title">Savitribai Phule Pune University</h6>
+              </div>
+              <div>
+                <img src="./assets/images/resoluteai.webp" alt="client logo" width="250" height="70">  
+                <h6 class="h6 service-item-title">ResoluteAI</h6>
+              </div>
+              <div>
+                <img src="./assets/images/teal.jpg" alt="client logo" width="125" height="110">
+                <h6 class="h6 service-item-title">Terra Economics and Analytics Lab, India       </h6>
+              </div>
+              <div>
+                <img src="./assets/images/aces.jpg" alt="client logo" width="125" height="110">
+                <h6 class="h6 service-item-title">Association of Computer Engineering Students, Pune        </h6>
+              </div>
+              <div>
+                <img src="./assets/images/kvs.png" alt="client logo" width="125" height="80">
+                <h6 class="h6 service-item-title">Kendriya vidyalaya Sangathan      </h6>
+              </div>
+              
+          </ul>
+
+        </section>
+        
+
+      </article>
+
+
+        <!--
+            - #RESUME
+          -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <!-- Open the PDF in a New Tab -->
+          <a href="https://drive.google.com/file/d/1kN8pnLwt73bOConK7liRzDnmqYaitFnv/view?usp=sharing" target="_blank">
+           <button><h3 class="h3 skills-title"><u>Click here to Open Resume</u></h3></button>
+          </a>
+        
+        
+        
+
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Machine Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+              
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python/C++/Java/HTML</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Vision & Image Processing</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Dev</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Leadership</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+              
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Management</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            
+
+            
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header> </header>
+        <header>
+          <h2 class="h2 article-title"></h2>
+          <h2 class="h2 article-title">Projects </h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Visualisation- Tableau</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Dev</button>
+            </li>
+
+            
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Visualisation- Tableau</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Dev</button>
+              </li>
+
+            
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/churn.webp" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bank Churn/ No Churn Analysis</h3>
+
+                <p class="project-category">Python, Flask, SQL, Tableau, Machine Learning , Data Analytics, Research Paper </p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning" >
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/accident.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Collision Risk Analyzer</h3>
+
+                <p class="project-category">Python, Streamlit, Machine Learning, Data Visualisation </p>
+
+              </a>
+            </li>
+
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/speedestimation.JPG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vehicle Identification and Speed Estimation</h3>
+
+                <p class="project-category">Python, OpenCV, Deep Learning, Image and Video Processing </p>
+
+              </a>
+            </li>
+
+            
+
+                <li class="project-item  active" data-filter-item data-category="machine learning">
+                  <a href="">
+
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/itr10.png" alt="finance" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">Image Denoising using
+                      CNN</h3>
+
+                    <p class="project-category">Python, Deep Neural Nets, CNN, Image Processing </p>
+
+                  </a>
+                </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web dev">
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/voting.webp" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online Voting system</h3>
+
+                <p class="project-category">Java, Servlet, SQL, HTML, CSS </p>
+
+              </a>
+            </li>
+
+          
+
+            <li class="project-item  active" data-filter-item data-category="data visualisation- tableau">
+              <a href="https://public.tableau.com/app/profile/shubh.kumar.jain/vizzes">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tableau.JPG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tableau Portfolio</h3>
+
+                <p class="project-category">Data Visualisation</p>
+
+              </a>
+            </li>
+
+            
+            
+            
+
+
+            <li class="project-item  active" data-filter-item data-category="web dev">
+              <a href="">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/thisportfolio.JPG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">This Portfolio Website 😁</h3>
+
+                <p class="project-category"> HTML, CSS </p>
+
+              </a>
+            </li>
+
+
+
+            
+
+          </ul>
+
+        </section>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certifications
+      -->
+
+      <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+
+            
+
+
+
+              <li class="blog-post-item">
+                <a href="">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/resoluteai.webp" alt="Design conferences in 2022" loading="lazy" height="100" width="100">
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <div class="blog-meta">
+                      <p class="blog-category">ResoluteAI, Bangalore</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-07-26">Apr 2022 - July 2022</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Data Analyst/Engineer Intern</h3>
+  
+                    <p class="blog-text">
+                      During my internship, I conducted Exploratory Data Analysis, identifying trends and data relationships. I proposed and executed a real-world use case to prevent road accidents, increasing accuracy from 20% to 65% using machine learning and Cross Validation. I also used Tableau to create visualizations for chiller and condenser data, optimizing machine performance. Additionally, I led a team of four in producing reports and interactive dashboards that improved data-driven decision-making.
+
+                    </p>
+  
+                  </div>
+  
+                </a>
+                </li>
+
+
+
+                <li class="blog-post-item">
+              <a href="">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/teal.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">TEAL , Bangalore</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-01-19">Dec 2021 - Jan 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Data Annotation Intern</h3>
+
+                  <p class="blog-text">
+                    I focused on enhancing data quality by executing ETL operations on real estate data, ensuring it was standardized and improved. Collaborating with the Operations team, I used trend analysis to achieve a 15% increase in efficiency. I also generated valuable ad-hoc reports, utilizing tools like Advanced Excel, Power Query, and Power Pivot, while also gaining experience in data scraping techniques.
+
+                  </p>
+
+                </div>
+
+              </a>
+              </li>
+
+
+
+
+                  
+
+
+
+
+
+
+
+
+
+              <!-- 
+
+                TO ADD MORE CERTIFICATIONS
+
+                <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Calculus/Mathematics/ML</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">August, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Mathematics for Machine Learning</h3>
+
+                  <p class="blog-text">
+                    Multivariate Calculus
+                  </p>
+
+                </div>
+
+              </a>
+
+              --> 
+
+              
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106598.46234971948!2d-112.01050160485484!3d33.39189517269417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0898a6aa80e3%3A0xa2dd4aad392cb41f!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1703129228214!5m2!1sen!2sus">
+
+                </iframe>
+              
+              </div><style>.mapouter{position:relative;text-align:right;width:1000px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:1000px;height:400px;}.gmap_iframe {width:1000px!important;height:400px!important;}</style></div>
+
+
+              
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/mvoepbqv" method="POST">
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Your Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Your Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit"  data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
